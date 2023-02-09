@@ -1,4 +1,6 @@
 # AppInterfaces
 Jose Maria Fernandez Canton
-Adrian Camacho Ferrezuelo
+Adrián Camacho Ferrezuelo
 Marta Gonzalez Palmero
+Alba Ruiz Gutiérrez
+Paula Ríos Sánchez
