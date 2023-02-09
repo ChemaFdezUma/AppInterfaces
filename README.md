@@ -1,2 +1,3 @@
 # AppInterfaces
-afbaufbsadñfbgsbug
+Jose Maria Fernandez Canton
+Adrian Camacho Ferrezuelo
