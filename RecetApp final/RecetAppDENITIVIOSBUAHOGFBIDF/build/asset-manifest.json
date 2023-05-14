@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.436690c3.css",
+    "main.js": "/static/js/main.0106e74c.js",
+    "static/media/derechaAbajo.png": "/static/media/derechaAbajo.3350bccae0f4126da68f.png",
+    "static/media/fotoLogin.png": "/static/media/fotoLogin.83c2942711ce27e41556.png",
+    "static/media/derechaArriba.png": "/static/media/derechaArriba.4d7840644c8126c1267d.png",
+    "static/media/izqAbajo.png": "/static/media/izqAbajo.cd6b5995f06e7f06acc5.png",
+    "static/media/izqArriba.png": "/static/media/izqArriba.4ec9e8df148c496d27be.png",
+    "static/media/izqMedio.png": "/static/media/izqMedio.c3fb2328f53b3726476c.png",
+    "static/media/logo.png": "/static/media/logo.6417708c37fce2b17e26.png",
+    "static/media/logoN.png": "/static/media/logoN.1fa141038b4d8de34f6f.png",
+    "static/media/flecha.png": "/static/media/flecha.6f0eeb51e41d02e5ff50.png",
+    "static/media/RecetAppLetra.svg": "/static/media/RecetAppLetra.7c8837921f8bab1f36eadc7f0f5cc7ac.svg",
+    "index.html": "/index.html",
+    "main.436690c3.css.map": "/static/css/main.436690c3.css.map",
+    "main.0106e74c.js.map": "/static/js/main.0106e74c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.436690c3.css",
+    "static/js/main.0106e74c.js"
+  ]
+}

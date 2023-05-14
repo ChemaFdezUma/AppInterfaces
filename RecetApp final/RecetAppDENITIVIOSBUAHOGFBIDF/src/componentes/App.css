@@ -1,0 +1,640 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+/*
+BARRA SCROLL
+*/
+::-webkit-scrollbar {
+  width: 15px;
+  background:  white;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#7f8180;
+  border-radius: 6px;
+}
+
+/*
+CSS APP.JS
+*/
+
+.Titulo{
+width: 50vmin;
+
+}
+
+.pTitulo{
+  width: 100%;
+  text-align: center;
+  font-size: 3vmin;
+  color: #00BF63;
+  line-height: 0vmin;
+  font-family: "Yanone Kaffeesatz";
+  margin-top: -17vmin;
+}
+
+.App {
+  text-align: center;
+}
+
+.marginTop{
+  margin-top: 4.5vmin;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo {
+  height: 35vmin;
+  margin-bottom: -18vmin;
+  pointer-events: none;
+  
+}
+
+.Center{
+  position: relative;
+  height: 60vmin;
+  width: 60vmin;
+  top: 10vmin;  
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.chiquito{
+  height: 10vmin;
+  display: block;
+  
+}
+.topLeft{
+  position: relative;
+  right: -20px;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+/*
+BACKGROUNDS
+
+rgb(255, 255, 255), 60%, rgb(168, 168, 168)
+rgb(168, 168, 168), 45%,rgb(255, 255, 255)
+*/
+
+.bgInicio{
+  background: linear-gradient(rgb(255, 255, 255), 60%, rgb(168, 168, 168));
+  }
+
+.bgLogin{
+  background: linear-gradient( rgb(168, 168, 168), 45%,rgb(255, 255, 255));
+}
+/*
+DIVS DE IMAGENES INICIO
+*/
+
+
+.izqMedioDIV{
+  width: 30vmin;
+  position: relative;
+  top: 20vmin;
+  right: 0vmin;
+  /*
+  border: #c53838 4px solid;
+  */
+}
+
+.bordeN{
+  width: 22vmin;
+  margin-bottom: 2vmin;
+  border: #000000 1px solid;
+}
+
+.izqArribaDIV{
+  width: 50vmin;
+  position: relative;
+  top: -45vmin;
+  right: -10vmin;
+  /*
+  border: #61dafb 4px solid;
+  */
+}
+
+.izqGrandeDIV{
+  width: 20vmin;
+  position: relative;
+  top: -56vmin;
+  right: -5vmin;
+  /*
+  border: #61dafb 4px solid;
+  */
+}
+
+.derAbajoDIV{
+  width: 44vmin;
+  position: relative;
+  top: -69vmin;
+  right: -7vmin;
+margin-left: auto;
+ /*
+  border: #61dafb 4px solid;
+*/
+}
+
+.derMedioDIV{
+  width: 52vmin;
+  position: relative;
+  top: -147vmin;
+  margin-left: auto;
+ 
+  /*
+  border: #61dafb 4px solid;
+  */
+}
+
+.fotoLoginDIV{
+  width: 65vmin;
+  position: relative;
+  right: 28vmin;
+  top: 4vmin;
+
+  /*
+  border: #61dafb 4px solid;
+  */
+}
+
+.flechaScrollDIV{
+  width: 7vmin;
+  position: relative;
+  top: -115vmin;
+  left: 10vmin;
+  /*
+  border: #61dafb 4px solid;
+  */
+}
+
+.prueba{
+  height: 50%;
+  position: relative;
+  top: -60vmin
+}
+
+
+
+/*
+IMAGENES INICIO
+*/
+
+.izqMedio{
+  width: 30vmin;
+}
+
+.izqArriba{
+  width: 50vmin;
+}
+
+
+.izqGrande{
+  width: 30vmin;
+
+}
+
+
+.derechaAbajo{
+  width: 44vmin;
+
+}
+
+
+.derechaMedio{
+  width: 52vmin;
+
+}
+
+.fotoLogin{
+  width: 65vmin;
+}
+
+.flechaScroll{
+  width: 5.5vmin;
+  animation: bounce 0.6s infinite;
+}
+
+/*
+CSS DE PGINA LOGIN
+*/
+.Container {
+  width: 100%;
+  height: 100vh;
+}
+
+.Wrapper {
+  width: 100%;
+  max-width: 1300vmin;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Info {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.CenterInfo {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.CenterInfo h1 {
+  width: 100%;
+  text-align: center;
+  color: #464646;
+  text-shadow: 2px 3px 7px rgb(0, 229, 76);
+  font-size: 10vmin;
+  font-family: "Yanone Kaffeesatz";
+  line-height: 0vmin;
+  margin: 0vmin;
+}
+.CenterInfo h2 {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 3vmin;
+  font-family: "Poppins";
+  line-height: 15vmin;
+  margin: 0px;
+}
+
+.CenterInfo p {
+  width: 100%;
+  text-align: center;
+  font-size: 2vmin;
+  color: #000000;
+  line-height: 4vmin;
+  font-family: "Poppins";
+  margin-top: 8vmin;
+}
+
+
+/*
+PRUEBA LOGIN REGISTER
+*/
+
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 8vmin;
+    border: 1.5px solid rgb(0, 0, 0);
+    background-color: #00BF63;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 1vmin;
+}
+
+input {
+  margin: 1vmin;
+  padding: 1.5vmin;
+  border: none;
+  border-radius: 10px;
+}
+
+.b1 {
+  width: 35vmin;
+  border: none;
+  background-color: white;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  margin-top: 4vmin;
+  cursor: pointer;
+  color: #000000;
+}
+
+.labelAndInputLoginRegister{
+  width: 35vmin;
+}
+.b1:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+.link-btn {
+  width: 35vmin;
+  border: none;
+  background-color: white;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  margin-top: 0vmin;
+  cursor: pointer;
+  color: #000000;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.fotoCabecera{
+  width: 10vmin;
+margin-left: auto;  
+}
+
+.tituloBuscador{
+  text-align: center;
+  font-size: 6vmin;
+  margin-top: 4vmin;
+  font-family: "Yanone Kaffeesatz";
+  font-weight: bold;
+  color: #198754;
+}
+
+.pBuscador{
+  width: 100%;
+  text-align: center;
+  font-size: 3vmin;
+  color: #000000;
+  font-weight: bold;
+  line-height: 0vmin;
+  font-family: "Yanone Kaffeesatz", cursive;
+  margin-top: 3vmin;
+  margin-bottom: 4vmin;
+}
+
+.busquedaReceta{
+  width: 15vmin;
+  height: 6vmin;
+  margin-top: 2vmin;
+  margin-right: 3vmin;
+}
+
+.busquedaLimpiar{
+  width: 15vmin;
+  height: 6vmin;
+  margin-top: 2vmin;
+}
+
+.cent{
+  display: flex;
+  justify-content: center;
+}
+
+.medioUsuarios{
+  text-align: center;
+  font-family: "Yanone Kaffeesatz";
+  font-weight: bold;
+  margin-top: 2vmin;
+}
+
+.h3Usuarios{
+  font-family: "Yanone Kaffeesatz";
+  margin-top: 2vmin;
+  font-weight: bold;
+}
+
+.cartaMar{
+  margin-top: 2vmin;
+}
+
+.cartaRec{
+  margin: 1vmin;
+}
+
+.cabeceraMar{
+  margin-right: 3vmin;
+}
+
+.buscador{
+  border: #000000 2px solid;
+  background-color: #cbffe6;
+  height: 6vmin;
+  width: 30vmin;
+  margin: 2vmin;
+  margin-right: 7vmin;
+  margin-bottom: 5vmin;
+}
+
+.busquedaForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botonBusqueda{
+  width: 20vmin;
+  border: none;
+  background-color: rgb(255, 255, 255);
+ 
+  border-radius: 2vmin;
+  margin-top: 2vmin;
+  cursor: pointer;
+  color: #000000;
+  height: 5vmin;
+  color: rgb(51, 28, 28);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(123, 255, 0);
+  
+}
+.botonBusqueda:hover{
+  color: #00BF63;
+  background-color: aqua;
+}
+
+.inputFondo{
+  background-color: rgb(224, 217, 217);
+  margin-bottom: 5vmin;
+  margin-left: 2vmin;
+  border: #000000 1px solid;
+}
+
+.colorBg{
+  background-color: #00BF63;
+}
+
+.margenD{
+  margin-top: 2vmin;
+  margin-bottom: 2vmin;
+}
+
+.margenD2{
+  margin-bottom: 2vmin;
+}
+
+.btnMargen{
+  margin-right: 1.4vmin;
+
+}
+
+.btnMargen1{
+  margin-bottom: 1vmin;
+}
+
+.centrarTxt{
+  text-align: center;
+}
+
+.margenG{
+  margin: 2vmin;
+}
+
+.margenTxt{
+  margin-top: 4vmin;
+}
+
+.margentB{
+  margin-bottom: 3vmin;
+}
+
+.margenCR{
+  margin-left: 3vmin;
+  margin-top: 7vmin;
+  margin-bottom: 5vmin;
+}
+
+.bordePrueba{
+  border: #6e6e6e 1px solid;
+}
+
+.bordePruebaC{
+  border: #eb0303 1px solid;
+}
+
+.margenBoton{
+  margin-top: 2vmin;
+  margin-bottom: 4vmin;
+}
+
+.h3i{
+  font-size: 2vmin;
+}
+
+.nBorde{
+  width: 20vmin;
+  text-decoration: none;
+}
+
+.tam{
+  width: 13vmin;
+}
+
+/*
+form input, form textarea{
+  display: block;    
+  }
+*/
+
+
+.tituloTarjeta{
+  font-size: 3vmin;
+  font-weight: bold;
+  font-family: 'Quicksand';
+}
+
+/*CAROUSEL AREA PERSONAL*/
+.tarejtaCarrousel{
+  width: calc(100%/3);
+}
+
+.wrappTarjetaCarrousel{
+  display: flex;
+}
+
+.letraCabecera{
+  font-size: 2vmin;
+  font-weight: bold;
+  font-family: 'Quicksand';
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.negro{
+  color: black;
+}
+
+.like-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.like-button {
+  border: none; 
+  outline: none;
+  background-color: transparent;
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 2.5vmin 5vmin;
+  border: 2px solid #333;
+}
+.like-button:hover {
+  color: #fff;
+  background-color: #333;
+}
+.like-button.liked {
+  color: #08BC64;
+  border-color: #08BC64;
+}
+/* For mobile screens */
+@media (max-width: 768px) {
+ .like-button-container {
+    flex-direction: column;
+ }
+ .like-button {
+    font-size: 2vmin;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border-width: 1px;
+ }
+} 
+
+.like-button-container {
+ display: flex;
+ justify-content: center;
+}
+
+.oscuro{
+ color: #08BC64;
+ border-color: #08BC64;
+}
+
+.areaTexto{
+  font-size: 3vmin;
+  font-family: "Yanone Kaffeesatz";
+}
+
+.flecha:focus{
+  border: #000000 3px solid;
+}
